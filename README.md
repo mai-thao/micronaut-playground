@@ -1,2 +1,2 @@
 # micronaut-playground
-Learning about Micronaut framework 
+Learning about the [Micronaut](https://micronaut.io) framework 
