@@ -1,24 +1,14 @@
-## Micronaut 4.8.2 Documentation
+# demoapp
+Demoing the [Micronaut](https://micronaut.io/) framework with a basic web Demo App.
 
-- [User Guide](https://docs.micronaut.io/4.8.2/guide/index.html)
-- [API Reference](https://docs.micronaut.io/4.8.2/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/4.8.2/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+### How to Run the App
+1) Run: `./gradlew run`
+2) Open your web browser and navigate to http://localhost:8080/hello
+3) You should see the String output: `Hello World`
+4) Terminate the app with: Ctrl + C
 
-- [Micronaut Gradle Plugin documentation](https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/)
-- [GraalVM Gradle Plugin documentation](https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html)
-- [Shadow Gradle Plugin](https://gradleup.com/shadow/)
-## Feature ksp documentation
+### How to Build the app
+1) Execute the command `./gradlew build`
 
-- [Micronaut Kotlin Symbol Processing (KSP) documentation](https://docs.micronaut.io/latest/guide/#kotlin)
-
-- [https://kotlinlang.org/docs/ksp-overview.html](https://kotlinlang.org/docs/ksp-overview.html)
-
-## Feature micronaut-aot documentation
-
-- [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
-
-## Feature serialization-jackson documentation
-
-- [Micronaut Serialization Jackson Core documentation](https://micronaut-projects.github.io/micronaut-serialization/latest/guide/)
+### How to Test the app
+1) Execute the command `./gradlew test`
