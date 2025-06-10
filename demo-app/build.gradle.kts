@@ -10,6 +10,7 @@ plugins {
 version = "0.1"
 group = "com.example"
 
+val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
     mavenCentral()
 }
@@ -57,6 +58,6 @@ micronaut {
     }
 }
 
-tasks.named("dockerfileNative") {
+tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "21"
 }
