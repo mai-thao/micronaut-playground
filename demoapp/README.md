@@ -1,5 +1,14 @@
 # demoapp
-Demoing the [Micronaut](https://micronaut.io/) framework with a basic web Demo App.
+Demoing the [Micronaut](https://micronaut.io/) framework with a basic web Demo App
+
+### How to Create a Micronaut (MN) App
+* Use the [Micronaut CLI](https://docs.micronaut.io/latest/guide/#cli)
+  * Command syntax: `mn create-app <package> [OPTIONS]`
+  * Command used for creating this demo app: `mn create-app com.example.demoapp --build=gradle --lang=kotlin`
+* Alternatively, use the [Micronaut Launch](https://micronaut.io/launch/) (Web Interface)
+  * Fill in the necessary details, configs, and dependencies
+  * Click "Generate Project", select "Download Zip", and it'll download a zipped folder
+  * Unzip the project, click into it, and run it from the command line
 
 ### How to Run the App
 1) Run: `./gradlew run`
