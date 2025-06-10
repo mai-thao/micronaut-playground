@@ -1,4 +1,4 @@
-# demoapp
+# demo-app
 Demoing the [Micronaut](https://micronaut.io/) framework with a basic web Demo App
 
 ### How to Create a Micronaut (MN) App
