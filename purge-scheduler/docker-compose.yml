@@ -7,5 +7,5 @@ services:
       POSTGRES_DB: usersdb
       POSTGRES_USER: adminmt
       POSTGRES_PASSWORD: adminpw
-    volumes:
+    volumes: # Mount the local `init-db.sql` file into the `init-db.sql` file at the specified container path, so it automatically seeds data into the database upon container start up
       - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
