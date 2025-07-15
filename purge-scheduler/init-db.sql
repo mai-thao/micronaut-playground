@@ -11,6 +11,7 @@ CREATE TABLE user_transaction (
 
 -- Insert dummy data into the new table
 INSERT INTO user_transaction (id, name, status, amount, category, created_timestamp, updated_timestamp) VALUES
+(121, 'Test', 'Inactive', 213.78, 'Electronics', '2025-07-15 12:11:12', '2025-07-15 12:17:31'),
 (13, 'Michael', 'Inactive', 213.78, 'Electronics', '2023-06-10 12:11:12', '2023-09-26 20:17:31'),
 (2, 'Lupe', 'Inactive', 87.65, 'Toys', '2023-04-23 20:14:48', '2023-04-25 16:39:18'),
 (19, 'Chris', 'Active', 172.45, 'Electronics', '2023-07-23 18:41:02', '2023-08-01 03:36:22'),
