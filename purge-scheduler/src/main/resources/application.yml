@@ -7,4 +7,4 @@ datasources:
     url: jdbc:postgresql://localhost:5432/usersdb
     driverClassName: org.postgresql.Driver
     username: adminmt
-    password: admintpw
+    password: adminpw
