@@ -9,7 +9,7 @@ CREATE TABLE user_transaction (
     updated_timestamp TIMESTAMP
 );
 
--- Insert dummy data into the new table
+-- Insert 21 rows of sample data into the new table
 INSERT INTO user_transaction (id, name, status, amount, category, created_timestamp, updated_timestamp) VALUES
 (121, 'Test', 'Inactive', 213.78, 'Electronics', '2025-07-15 12:11:12', '2025-07-15 12:17:31'),
 (13, 'Michael', 'Inactive', 213.78, 'Electronics', '2023-06-10 12:11:12', '2023-09-26 20:17:31'),
