@@ -1,4 +1,5 @@
 package com.example
+
 import io.micronaut.runtime.EmbeddedApplication
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest
 import org.junit.jupiter.api.Assertions
@@ -15,5 +16,4 @@ class PurgeSchedulerTest {
     fun testItWorks() {
         Assertions.assertTrue(application.isRunning)
     }
-
 }
