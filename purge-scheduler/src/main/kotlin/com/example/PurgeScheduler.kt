@@ -4,7 +4,7 @@ import io.micronaut.scheduling.annotation.Scheduled
 import jakarta.inject.Singleton
 import java.time.LocalDateTime
 
-@Singleton // Make sure there's only one instance of this class, to prevent duplicate job runs and ensures thread safety
+@Singleton // Create only one instance of this class, to prevent duplicate scheduled job runs and ensures thread safety
 class PurgeScheduler(private val repo: UserRepository) {
 
     /**
