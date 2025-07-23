@@ -30,7 +30,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
-    testImplementation("io.mockk:mockk:1.14.2")
+    testImplementation("io.mockk:mockk:1.14.2") // Not using latest v1.14.5 because it transitively brings in incompatible Kotlin version 2.1+
 }
 
 application {
