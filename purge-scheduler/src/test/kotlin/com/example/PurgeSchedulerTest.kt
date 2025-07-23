@@ -1,12 +1,10 @@
 package com.example
 
-import io.micronaut.test.extensions.junit5.annotation.MicronautTest
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
 import org.junit.jupiter.api.Test
 
-@MicronautTest
 class PurgeSchedulerTest {
 
     private val repo = mockk<UserRepository>()
