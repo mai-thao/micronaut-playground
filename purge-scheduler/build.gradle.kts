@@ -66,3 +66,10 @@ micronaut {
 tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "21"
 }
+
+tasks.test {
+    testLogging {
+        events("passed", "skipped", "failed") // Log all tests and their outputs
+        outputs.upToDateWhen { false } // Auto force tests to rerun every time without specifying --rerun-tasks flag
+    }
+}
